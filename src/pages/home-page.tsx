@@ -41,18 +41,17 @@ const HomePage: React.FC = () => {
       },
     };
 
-    // axios(options)
-    //   .then((res) => {
-    //     setUrlResult(res.data.link);
-    //     reset(); // Limpe o formulário após o envio
-    //   })
-    //   .catch((err) => {
-    //     console.log(err);
-    //   })
-    //   .finally(() => {
-    //     setLoading(false);
-    //   });
-    //
+    axios(options)
+      .then((res) => {
+        setUrlResult(res.data.link);
+        reset(); // Limpe o formulário após o envio
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+      .finally(() => {
+        setLoading(false);
+      });
   };
 
   return (
