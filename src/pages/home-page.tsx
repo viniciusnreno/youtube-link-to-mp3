@@ -52,6 +52,7 @@ const HomePage: React.FC = () => {
     //   .finally(() => {
     //     setLoading(false);
     //   });
+    //
   };
 
   return (
