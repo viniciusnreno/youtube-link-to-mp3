@@ -1,4 +1,4 @@
-export function getId(url) {
+export function getId(url: string): string | false {
   var regExp =
     /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
   var match = url.match(regExp);
