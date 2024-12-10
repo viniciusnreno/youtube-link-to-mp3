@@ -4,7 +4,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import axios from "axios";
 import { getId } from "../../utils/getId";
 import { schema } from "../../utils/schema";
-import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
@@ -44,7 +43,7 @@ const HomePage: React.FC = () => {
     axios(options)
       .then((res) => {
         setUrlResult(res.data.link);
-        reset(); // Limpe o formulário após o envio
+        reset(); 
       })
       .catch((err) => {
         console.log(err);
@@ -73,7 +72,7 @@ const HomePage: React.FC = () => {
             <Button type="submit">Submit</Button>
           </div>
           {errors.youtubeLink && (
-            <p className="text-red-100 text-sm mt-1">
+            <p className="text-red-500 text-sm mt-1">
               {errors.youtubeLink.message}
             </p>
           )}
