@@ -43,10 +43,6 @@ Acesse a versão online do projeto: [https://youtubelinktomp3.vercel.app/](https
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias ou correções.
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
-
 ---
 
 💡 Desenvolvido por [Vinícius N. Renó](https://viniciusreno.vercel.app/).
