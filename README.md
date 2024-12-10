@@ -10,7 +10,6 @@ Este projeto é uma aplicação frontend que permite aos usuários baixarem víd
 - **[TailwindCSS](https://tailwindcss.com/)**: Framework CSS para estilização moderna.
 - **[ShadCN UI](https://shadcn.dev/)**: Biblioteca para componentes UI acessíveis e elegantes.
 - **[RapidAPI](https://rapidapi.com/)**: Integração para realizar o download e conversão de vídeos.
-- **Git**: Controle de versão para desenvolvimento colaborativo.
 
 ## 📝 Funcionalidades
 
