@@ -4,10 +4,13 @@ Este projeto é uma aplicação frontend que permite aos usuários baixarem víd
 
 ## 🚀 Tecnologias Utilizadas
 
+- **[ReactJS](https://reactjs.org/)**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **[TypeScript](https://www.typescriptlang.org/)**: Superset do JavaScript que adiciona tipagem estática.
 - **[Vite](https://vitejs.dev/)**: Ferramenta de build rápida e eficiente.
 - **[TailwindCSS](https://tailwindcss.com/)**: Framework CSS para estilização moderna.
 - **[ShadCN UI](https://shadcn.dev/)**: Biblioteca para componentes UI acessíveis e elegantes.
 - **[RapidAPI](https://rapidapi.com/)**: Integração para realizar o download e conversão de vídeos.
+- **Git**: Controle de versão para desenvolvimento colaborativo.
 
 ## 📝 Funcionalidades
 
@@ -29,11 +32,19 @@ Este projeto é uma aplicação frontend que permite aos usuários baixarem víd
    ```bash
    npm install
    ```
-4. Execute o servidor de desenvolvimento:
+4. Configure a variável de ambiente para a API Key da YouTube API:
+
+   - Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
+     ```
+     VITE_YOUTUBE_API_KEY=YOUR_API_KEY
+     ```
+     Substitua `YOUR_API_KEY` pela sua chave da YouTube API.
+
+5. Execute o servidor de desenvolvimento:
    ```bash
    npm run dev
    ```
-5. Acesse a aplicação em: [http://localhost:5173](http://localhost:5173)
+6. Acesse a aplicação em: [http://localhost:5173](http://localhost:5173)
 
 ## 🌐 Link Hospedado
 
